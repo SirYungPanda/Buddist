@@ -1,0 +1,72 @@
+.fs-items {
+  border-bottom: none;
+}
+
+.item.fs-logo {
+  height: 160px;
+  background: url('../images/fs-logo.png') no-repeat;
+  background-position: 50% 30%;
+  background-color: rgb(247, 177, 57);
+}
+
+.bar.bar-header.fs-header {
+  background-color: rgb(247, 177, 57);
+}
+
+.fs-header .button.button-clear.fs-button,
+.button.button-icon.fs-button {
+  color: white;
+}
+
+.button.button-clear.fs-button.fs-cart-button {
+  font-weight: bold;
+  font-size: 11pt;
+}
+
+.fs-city {
+  position: absolute;
+  bottom: 9px;
+  margin-left: -16px;
+  text-align: center;
+  width: 100%;
+}
+
+.item.fs-middle-buttons {
+  padding: 0;
+}
+
+.button.fs-button-menu {
+  background-color: rgb(247, 203, 123);
+  color: white;
+}
+
+.button.fs-button-info {
+  background-color: rgb(252, 229, 187);
+  color: rgb(247, 177, 57);
+}
+
+.fs-main-info {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.fs-main-info .item {
+  border-left: none;
+  border-right: none;
+  font-size: 11pt;
+  border-color: rgb(247, 177, 57);
+}
+
+.fs-main-info .item .fs-right-hint {
+  float: right;
+  font-size: 11pt;
+}
+
+.fs-main-info .item .fs-right-hint .icon {
+  font-size: 15pt;
+  margin-left: 4px;
+}
+
+.fs-main-info .item.fs-order-info {
+  height: 136px;
+}
